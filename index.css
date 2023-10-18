@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap");
 
 body {
   display: flex;
@@ -7,14 +7,15 @@ body {
   align-items: center;
   text-align: center;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   padding: 10px;
 }
 
 p {
-  line-height: 2;
+  line-height: 1.5;
   font-size: 0.9rem;
-  font-weight: light;
+  font-weight: 300;
+  color: rgb(178, 178, 178);
 }
 
 .headshot {
@@ -33,7 +34,7 @@ main {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 20px 40px;
+  padding: 0 40px;
 }
 
 hr {
@@ -49,24 +50,24 @@ hr {
 }
 
 .left-section h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .right-section {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  /* gap: 4px; */
 }
 
 .icons {
   display: flex;
-  gap: 20px;
+  gap: 25px;
   margin: 0 auto;
   width: 100%;
 }
 
 .icons a img {
-  height: 25px;
+  height: 20px;
 }
 
 li {
